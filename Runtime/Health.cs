@@ -84,6 +84,11 @@ public class Health : MonoBehaviour
         return true;
     }
 
+    /// <summary>
+    /// Sets the current health to the given amount. If increaseMaxHealth is true, the max health will be increased to the given amount if it is greater than the current max health.
+    /// </summary>
+    /// <param name="amount">The int value that is used to set the current health of the object</param>
+    /// <param name="increaseMaxHealth">If true, the max health will be increased to the given amount if it is greater than the current max health</param>
     public void SetHealth(int amount, bool increaseMaxHealth)
     {
         if (amount < 0)
