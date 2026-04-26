@@ -1,3 +1,12 @@
+# [3.1.0](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v3.0.0...v3.1.0) (2026-04-26)
+
+
+### Features
+
+* **Set Health:** Add Set Health Method ([ca5baf6](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/ca5baf66036f416bd60a9f0665cffc4a3cf4c77f))
+
+
+
 # [3.0.0](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v1.1.6...v3.0.0) (2026-01-08)
 
 
@@ -48,16 +57,6 @@
 ### Bug Fixes
 
 * HealthSystem.Editor broken assembly reference to HealthSystem.Runtime ([0eca488](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/0eca48846b2a98370bd750af185a76921505a393))
-
-
-
-## [1.1.3](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v1.1.2...v1.1.3) (2025-10-23)
-
-
-### Bug Fixes
-
-* Corrected bad syntax ([cf8e8e8](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/cf8e8e8bc29aa369df80a9d39752aa875176f873))
-* Improved Assembly Definitions names ([fe8dce1](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/fe8dce11167859fd0346cf3c2f3398a4f72d2b34))
 
 
 
