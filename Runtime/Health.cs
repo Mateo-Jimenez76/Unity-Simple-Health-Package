@@ -94,6 +94,7 @@ public class Health : MonoBehaviour
         CurrentHealth = amount;
         if (increaseMaxHealth && amount > MaxHealth)
         {
+            Debug.Log("Increasing max health to " + amount);
             MaxHealth = amount;
         }
     }
