@@ -84,6 +84,20 @@ public class Health : MonoBehaviour
         return true;
     }
 
+    public void SetHealth(int amount, bool increaseMaxHealth)
+    {
+        if (amount < 0)
+        {
+            Debug.LogWarning("Health amount cannot be less than 0!");
+            return;
+        }
+        CurrentHealth = amount;
+        if (increaseMaxHealth && amount > MaxHealth)
+        {
+            MaxHealth = amount;
+        }
+    }
+
     public void BeInvulnerable(bool value)
     {
         _invulnerable = value;
