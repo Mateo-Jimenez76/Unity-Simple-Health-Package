@@ -1,3 +1,12 @@
+## [3.1.1](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v3.1.0...v3.1.1) (2026-06-26)
+
+
+### Bug Fixes
+
+* **HealthDisplayer:** Percentage option not working as expected ([b2f7514](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/b2f75149285b32c62cf38c4e7f296d997c37d4f8))
+
+
+
 # [3.1.0](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v3.0.0...v3.1.0) (2026-04-26)
 
 
@@ -48,15 +57,6 @@
 ### Bug Fixes
 
 * Slider to display current health value ([818ad02](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/818ad021dcab18f7bb459eed31d3451a515087a2))
-
-
-
-## [1.1.4](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v1.1.3...v1.1.4) (2025-10-24)
-
-
-### Bug Fixes
-
-* HealthSystem.Editor broken assembly reference to HealthSystem.Runtime ([0eca488](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/0eca48846b2a98370bd750af185a76921505a393))
 
 
 
