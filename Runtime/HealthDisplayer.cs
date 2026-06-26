@@ -97,7 +97,7 @@ public class HealthDisplayer : MonoBehaviour
                         return;
                     case TextStyle.Percentage:
                         if (TextObject != null)
-                            TextObject.text = (Health.CurrentHealth / Health.MaxHealth).ToString() + "%";
+                            TextObject.text = (Health.CurrentHealth / Health.MaxHealth * 100).ToString() + "%";
                         return;
                     case TextStyle.Custom:
                         MaxHealthTextObject.text = Health.MaxHealth.ToString();
