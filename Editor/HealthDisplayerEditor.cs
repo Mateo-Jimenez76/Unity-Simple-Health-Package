@@ -1,4 +1,5 @@
 using UnityEditor;
+using UnityEngine;
 [CustomEditor(typeof(HealthDisplayer), true)]
 public class HealthDisplayerEditor : Editor
 {
@@ -75,6 +76,9 @@ public class HealthDisplayerEditor : Editor
             }
         }
         serializedObject.ApplyModifiedProperties();
-        healthDisplayer.UpdateHealthDisplayEditor();
+        if (!Application.isPlaying)
+        {
+            healthDisplayer.UpdateHealthDisplayEditor();
+        }
     }
 }
