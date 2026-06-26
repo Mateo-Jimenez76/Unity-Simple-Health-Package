@@ -1,3 +1,12 @@
+## [3.1.2](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v3.1.1...v3.1.2) (2026-06-26)
+
+
+### Bug Fixes
+
+* UpdateHealthDisplayEditor overriding runtime version during inspector updates while playing ([67263b1](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/67263b1983dd09450779399708db9745c9ef3924))
+
+
+
 ## [3.1.1](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v3.1.0...v3.1.1) (2026-06-26)
 
 
@@ -48,15 +57,6 @@
 ### Bug Fixes
 
 * fixed missing assembly definition reference ([0f9d7a4](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/0f9d7a404e17938540858e76ef5a3a86e3f17e42))
-
-
-
-## [1.1.5](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/compare/v1.1.4...v1.1.5) (2025-10-24)
-
-
-### Bug Fixes
-
-* Slider to display current health value ([818ad02](https://github.com/Mateo-Jimenez76/Unity-Simple-Health-Package/commit/818ad021dcab18f7bb459eed31d3451a515087a2))
 
 
 
